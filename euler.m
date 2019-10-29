@@ -1,3 +1,4 @@
+
 function euler()
     h = 0.1
     fprintf("f(x) = -2 * ystar(x) + cos(4 * t(x))\n");
