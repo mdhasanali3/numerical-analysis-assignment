@@ -16,4 +16,4 @@ function ret = RungeKutta(f, x0, y, x, h)
         y(i+1) = y(i) + (1/6)*(k1+2*k2+2*k3+k4)*h;  % main equation
     end
     ret = [x', y'];
-end
+end 
